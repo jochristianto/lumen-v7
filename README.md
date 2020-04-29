@@ -39,3 +39,18 @@ Notice that the `1.1` value on the `test_float` column returned as `1.1000000000
 Same thing also happened with the `test_double`.
 
 If you prefer to see the whole result, you can use `curl --location --request GET 'http://localhost:8000/all'`.
+
+## PHP Version
+```sh
+$ php -v
+PHP 7.2.27 (cli) (built: Jan 30 2020 02:16:26) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+```
+
+## Docker
+```sh
+$ docker-compose up -d
+```
+
+Generated using https://phpdocker.io/generator
